@@ -1,0 +1,60 @@
+header{
+    width:100%;
+    height:50px;
+    background:black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:white;
+}
+
+.ue{
+    font-size:30px;
+    padding-left:10px;
+}
+
+header ul{
+    float:right;
+    padding-top:0px;
+    position:absolute;
+    top:3px;
+    right:5px;
+}
+
+header ul li{
+    font-size:20px;
+    float:left;
+    list-style:none;
+    padding:0 15px 0 15px;
+}
+
+#hidari{
+    float:left;
+    width:70%;
+    height:600px;
+    background:lightblue;
+    margin:70px 0 5% 5%;
+}
+
+#migi{
+    float:left;
+    width:20%;
+    height:600px;
+    background:skyblue;
+    margin:70px 5% 5% 0;
+}
+
+footer{
+    width:100%;
+    height:50px;
+    background:black;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.sita{
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
