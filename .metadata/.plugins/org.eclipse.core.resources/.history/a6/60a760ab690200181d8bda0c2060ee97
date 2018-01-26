@@ -1,0 +1,14 @@
+
+public class Yuusha extends Human {
+
+	public Yuusha(){
+		super.setName();
+		super.setGender();
+	
+
+	int[] gender={1,2};
+	System.out.println("↓名前を入力してください。");
+	int input=new java.util.Scanner(System.in).nextInt();
+
+	}
+}

@@ -1,0 +1,41 @@
+
+public class Human {
+//フィールド
+	private String name=null;
+	private int gender=0;    //性別(1:男 2:女)
+
+//コンストラクタ
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+
+	public int gender(){
+		return gender;
+	}
+	public void setGender(int gender){
+		this.gender=gender;
+		if(gender==1){
+			System.out.println("男");
+		}else if(gender==2){
+			System.out.println("女");
+		}else{
+			System.out.println("エラー:半角の1か2で入力してください。");
+		}
+	}
+
+
+//以下メソッド
+	public void talk(String about){
+		System.out.println(about);
+	}
+
+}
+
+
+
+
+
+

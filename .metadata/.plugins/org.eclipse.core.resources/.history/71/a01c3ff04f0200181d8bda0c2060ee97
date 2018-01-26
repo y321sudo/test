@@ -1,0 +1,11 @@
+
+public class Hakase {
+
+	public Hakase(){
+		super.setName("オーキド博士");
+		super.setGender(1);
+		super.setHp();
+		super.setLevel();
+	}
+
+}

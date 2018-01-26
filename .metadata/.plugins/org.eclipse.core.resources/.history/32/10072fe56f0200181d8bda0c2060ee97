@@ -1,0 +1,21 @@
+
+public class Zenigame extends Pokemon{
+
+	public Zenigame(){
+		super.setName("ゼニガメ");
+		super.setType("みず");
+		super.setWeakness("くさ・でんき");
+		super.setText("こうらに とじこもり みを まもる。\nあいての すきを みのがさずみずを ふきだして はんげきする。");
+		super.setHp(100);
+		super.setLevel(5);
+	}
+
+//以下メソッド
+	public void waterGun(){
+		String name=super.getName();
+		System.out.println(name+"の みずでっぽう！");
+	}
+
+
+
+}

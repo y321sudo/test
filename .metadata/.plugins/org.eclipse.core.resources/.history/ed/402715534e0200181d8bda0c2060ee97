@@ -1,0 +1,15 @@
+
+public class Human {
+
+	private String name=null;
+	private int gender=0;    //性別(1:男 2:女)
+	private int hp=0;
+	private int level=0;
+
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+}

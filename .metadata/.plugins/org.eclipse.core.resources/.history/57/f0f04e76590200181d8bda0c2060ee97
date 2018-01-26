@@ -1,0 +1,12 @@
+
+public class Zenigame extends Pokemon{
+
+	public Zenigame(){
+		super.setName("ゼニガメ");
+		super.setType("みず");
+		super.setWeakness("くさ・でんき");
+		super.setHp(100);
+		super.setLevel(5);
+	}
+
+}

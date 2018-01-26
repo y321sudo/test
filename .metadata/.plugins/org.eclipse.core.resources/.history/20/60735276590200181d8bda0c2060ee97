@@ -1,0 +1,20 @@
+public class Main {
+
+	public static void main(String[] args) {
+		Yuusha yuusha=new Yuusha();
+		Hakase hakase=new Hakase();
+		Zenigame zenigame=new Zenigame();
+
+		System.out.println(hakase.getName()+":やぁ、見ない顔だな。君の名前を教えてくれたまえ。");
+		System.out.println(yuusha.getName()+":"+hakase.getName()+"こんにちは!僕は"+yuusha.getName()+"と言います！");
+		System.out.println();
+
+		System.out.println(hakase.getName()+":"+yuusha.getName()+"、早速だが君にはポケモンを与えよう。この3つの卵から選んでね。");
+		System.out.println(yuusha.getName()+":"+hakase.getName()+"ありがとう！僕はこの真ん中の卵にします。");
+		System.out.println();
+
+		System.out.println("◆家に戻って卵を温めていると・・・卵からポケモンが生まれた！\nテンテケテーン！\n");
+
+	}
+
+}

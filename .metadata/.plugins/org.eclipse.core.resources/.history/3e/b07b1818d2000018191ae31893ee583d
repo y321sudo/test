@@ -1,0 +1,4 @@
+
+public class Robot {
+	publiv String name=null;
+}

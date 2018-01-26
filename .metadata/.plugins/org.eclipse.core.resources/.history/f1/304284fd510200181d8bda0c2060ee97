@@ -1,0 +1,16 @@
+
+public class Hakase extends Human{
+
+	public Hakase(){
+		super.setName("オーキド博士");
+		super.setGender(1);
+		super.setHp(0);
+		super.setLevel(0);
+	}
+
+	public void talk(){
+		
+		System.out.println(hakase.getName);
+	}
+
+}

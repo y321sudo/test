@@ -1,0 +1,13 @@
+public class Main {
+
+	public static void main(String[] args) {
+		Yuusha yuusha=new Yuusha();
+		Hakase hakase=new Hakase();
+
+		System.out.println(hakase.getName()+":君の名前を教えてくれたまえ。");
+
+
+
+	}
+
+}

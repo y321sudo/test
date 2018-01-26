@@ -1,0 +1,21 @@
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		Robot aibo=new Robot();
+		aibo.name="アイボ";
+		aiboo.talk();
+		aiboo.walk();
+		aiboo.run();
+
+		Robot asimo=new Robot();
+		asimo.name="アシモ";
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+
+
+
+	}
+
+}
