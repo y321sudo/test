@@ -5,7 +5,13 @@ public class Human {
 	private int gender='0';    //性別(1:男 2:女)
 
 //コンストラクタ
-	public Human(){}
+	Human(String m){
+		this.name=m;
+	}
+	Human(){
+	}
+
+	//以下メソッド
 	public String getName(){
 		return name;
 	}
@@ -17,11 +23,20 @@ public class Human {
 		return gender;
 	}
 	public void setGender(int gender){
-		this.gender=gender;
+		switch(gender){
+		case 1:
+			System.out.println("おとこ");
+			break;
+		case 2:
+			System.out.println("おんな");
+			break;
+		default:
+			System.out.println("エラー:半角数字の1か2を入力してください");
+		}
 	}
 
 
-//以下メソッド
+
 
 
 

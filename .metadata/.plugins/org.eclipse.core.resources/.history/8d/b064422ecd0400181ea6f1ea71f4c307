@@ -1,0 +1,17 @@
+
+public class Item {
+//フィールド
+	private String name=null;
+
+
+
+
+//コンストラクタ
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+
+}

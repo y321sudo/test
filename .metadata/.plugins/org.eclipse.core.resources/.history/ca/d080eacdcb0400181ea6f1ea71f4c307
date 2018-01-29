@@ -1,0 +1,10 @@
+
+public class MonsterBall extends Item{
+
+	public MonsterBall(){
+		super.setName("モンスターボール");
+
+
+	}
+
+}

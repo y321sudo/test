@@ -1,0 +1,16 @@
+
+public class Yuusha extends Human {
+
+	
+		public Yuusha(String name){
+			super(name);
+		}
+	public Yuusha(){
+		super.setGender(1);
+	}
+	
+	//以下メソッド
+	
+	
+	
+}

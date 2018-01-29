@@ -1,0 +1,54 @@
+public class Main {
+
+	public static void main(String[] args) {
+		Yuusha yuushaName=new Yuusha();
+		Hakase hakase=new Hakase();
+		Zenigame zenigame=new Zenigame();
+		Poppo poppo=new Poppo();
+
+//オーキド博士とサトシの出会い、卵からゼニガメが生まれる
+		System.out.println(hakase.getName()+":やぁ、見ない顔だな。君の名前を教えてくれたまえ。");
+		//名前の入力
+		System.out.println("↓名前を入力してください");
+		String n=new java.util.Scanner(System.in).nextLine();
+		Yuusya yuusyaName=new Yuusha(n);
+		System.out.println(yuushaName.getName()+":"+hakase.getName()+"こんにちは!わたしは"+yuushaName.getName()+"です！");
+		System.out.println();
+
+		System.out.println(hakase.getName()+":"+yuushaName.getName()+"、早速だが君にはポケモンを与えよう。この3つの卵から選んでね。");
+		System.out.println(yuushaName.getName()+":"+hakase.getName()+"ありがとう！わたしはこの真ん中の卵にします。");
+		System.out.println();
+
+		System.out.println("◆家に戻って卵を温めていると・・・卵からポケモンが生まれた！◆");
+		System.out.println("(^^)/"+zenigame.getName()+"、"+zenigame.getType()+"タイプポケモン\n"+zenigame.getText());
+		System.out.println("レベル:"+zenigame.getLevel()+"　HP:"+zenigame.getHp());
+		System.out.println();
+
+//サトシとゼニガメ旅に出る、ポッポに遭遇
+		System.out.println("◆早速"+yuusha.getName()+"と"+zenigame.getName()+"は旅に出た。◆");
+		System.out.println("あ！ やせいの\n"+poppo.getName()+"が とびだしてきた！");
+		System.out.println();
+		System.out.println("ーーーティロリロリロリローーー");
+		System.out.println();
+
+//ポッポとゼニガメのバトル
+		System.out.println("相手:"+poppo.getName()+" レベル:"+poppo.getLevel()+" HP:"+poppo.getHp());
+		System.out.println("自分:"+zenigame.getName()+" レベル:"+zenigame.getLevel()+" HP:"+zenigame.getHp());
+		System.out.println("→たたかう  どうぐ\n  ポケモン  にげる");
+		System.out.println();
+		zenigame.waterGun();
+		poppo.setHp(poppo.getHp()-40);
+		System.out.println(poppo.getName()+"のHPが"+poppo.getHp()+" になった。");
+		System.out.println();
+		poppo.bodyBlow();
+		zenigame.setHp(zenigame.getHp()-40);
+		System.out.println(zenigame.getName()+"のHPが"+zenigame.getHp()+" になった。");
+		System.out.println();
+		System.out.println("  たたかう→どうぐ\n  ポケモン  にげる");
+		System.out.println(yuushaName.getName()+"はモンスターボールを使った！");
+		System.out.println();
+		
+
+	}
+
+}
