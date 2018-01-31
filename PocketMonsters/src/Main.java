@@ -56,8 +56,7 @@ public class Main {
 		System.out.println();
 
 		System.out.println("  たたかう→どうぐ\n  ポケモン  にげる");
-		System.out.println(yuusha.getName()+"は"+monsterball.getName()+"を使った！");
-		System.out.println();
+		System.out.println(yuusha.release());
 
 
 	}

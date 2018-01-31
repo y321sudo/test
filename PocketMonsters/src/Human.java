@@ -1,7 +1,7 @@
 
 public class Human {
 //フィールド
-	private String name=null;
+	private static String name=null;
 	private int gender='0';    //性別(1:男 2:女)
 
 //コンストラクタ
@@ -12,7 +12,7 @@ public class Human {
 	}
 
 	//以下メソッド
-	public String getName(){
+	public static String getName(){
 		return name;
 	}
 	public void setName(String name){

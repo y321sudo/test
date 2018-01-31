@@ -3,7 +3,7 @@ public class Item {
 //フィールド
 	private String name=null;
 	private int hp=0;
-
+	private int level=0;
 
 
 //コンストラクタ
@@ -20,5 +20,13 @@ public class Item {
 	public void setHp(int hp){
 		this.hp=hp;
 	}
+
+	public int getLevel(){
+		return level;
+	}
+	public void setLevel(int level){
+		this.level=level;
+	}
+
 
 }
